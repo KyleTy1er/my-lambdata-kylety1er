@@ -1,11 +1,13 @@
 # my-lambdata-kylety1er   
 
 
-Description here.
+# Description here:
+
+Function for displaying null values in a dataframe
+Function for updating display options in a notebook
 
 # Installation
 
-pip install -i https://test.pypi.org/simple/ my-lambdata-kylety1er==1.0 
 
 # Usage
 
