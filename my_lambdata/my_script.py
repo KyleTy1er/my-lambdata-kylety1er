@@ -1,16 +1,15 @@
-
-#my_script.py
+# my_lambdata/my_script.py
 
 import pandas
 
 from my_lambdata.my_mod import enlarge
 
-# print ("SOMETHING HUH")
+print("HELLO WORLD")
 
-df = pandas.DataFrame({"x":[1,2,3], "y":[4,5,6]})
-
+df = pandas.DataFrame({"state": ["CT", "CO", "CA", "TX"]})
 print(df.head())
 
-x=5
-
-print (enlarge(x))
+print("-----------------")
+x = 5
+print("NUMBER", x)
+print("ENLARGED NUMBER", enlarge(x)) # invoking our function!!
