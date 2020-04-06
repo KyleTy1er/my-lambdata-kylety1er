@@ -1,6 +1,7 @@
 # my_lambdata/my_mod.py
 
-
+import pandas as pd
+import numpy as np 
 
 # Check data frame for nulls:
 
