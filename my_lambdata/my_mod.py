@@ -2,6 +2,9 @@
 
 # Check data frame for nulls:
 
+import pandas as pd
+import numpy as np
+
 def null_checker(a):
   null_columns=a.columns[a.isnull().any()]
   return a[null_columns].isnull().sum().sort_values(ascending=True).head(50)
