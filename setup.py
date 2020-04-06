@@ -10,7 +10,7 @@ setup(
     version="1.0",
     author="Kyle Yates",
     author_email="kyates2861@gmail.com",
-    description="A short description",
+    description="First package upload",
     long_description=long_description,
     long_description_content_type="text/markdown", # required if using a md file for long desc
     #license="MIT",

@@ -1,21 +1,18 @@
 # my_lambdata/my_mod.py
 
-def enlarge(n):
-    """
-    Param n is a number
-    Function will enlarge the number
-    """
-    return n * 100
 
-# this code breaks our ability to import enlarge from other files, if left in the global scope:
-#
-# print("HELLO")
-# y = int(input("Please choose a number"))
-# print(y, enlarge(y))
 
-if __name__ == "__main__":
-    # only run the code below IF this script is invoked from the command-line
-    # not if it is imported from another script
-    print("HELLO")
-    y = int(input("Please choose a number"))
-    print(y, enlarge(y))
+# Check data frame for nulls:
+
+def null_checker(a):
+  null_columns=a.columns[a.isnull().any()]
+  return a[null_columns].isnull().sum().sort_values(ascending=True).head(50)
+
+
+# Function to set notebook display options:
+
+def display_mod():
+  pd.set_option('display.max_columns', None)
+  pd.set_option('display.max_rows', None)
+  pd.options.display.max_seq_items = None
+
