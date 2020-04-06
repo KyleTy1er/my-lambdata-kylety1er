@@ -5,8 +5,7 @@ Description here.
 
 # Installation
 
-pip install -i https://test.pypi.org/simple/ my-lambdata-kylety1er==1.0 # todo: get address from pypi and update this line
-
+pip install -i https://test.pypi.org/simple/ my-lambdata-kylety1er==1.0 
 
 # Usage
 
