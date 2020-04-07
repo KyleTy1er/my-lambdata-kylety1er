@@ -17,3 +17,20 @@ def display_mod():
   pd.set_option('display.max_rows', None)
   pd.options.display.max_seq_items = None
 
+
+def feature_keeper(dataframe, target):
+    # Get a dataframe with all train columns except the target
+    train_features = dataframe.drop(columns=[target])
+
+    # Get a list of the numeric features
+    numeric_features = train_features.select_dtypes(include='number').columns.tolist()
+
+    # Get a series with the cardinality of the nonnumeric features
+    cardinality = train_features.select_dtypes(exclude='number').nunique()
+
+    # Get a list of all categorical features with cardinality <= 50
+    categorical_features = cardinality[cardinality <= 50].index.tolist()
+
+    # Combine the lists 
+    features = numeric_features + categorical_features
+
