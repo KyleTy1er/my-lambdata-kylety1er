@@ -3,7 +3,7 @@
 
 # Description here:
 
-Function for displaying null values in a dataframe
+Function for displaying null values in a dataframe 
 Function for updating display options in a notebook
 
 # Installation

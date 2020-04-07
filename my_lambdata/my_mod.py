@@ -51,6 +51,16 @@ def feature_keeper(dataframe, target):
 
 
 class Model_Prep():
+    """
+    Takes a pd.DataFrame and drops a target variable
+    by passing in the column name.
+    Takes a pd.DataFrame and returns columns with only
+    numeric data types.
+    Takes a pd.DataFrame and returns columns with 
+    cardinality of less than 50.
+    Takes a pd.DataFrame and combines columns with
+    numeric features and low cardinality features.
+    """
 
     def __init__(self, dataframe, target=None):
         self.dataframe = dataframe
