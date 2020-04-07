@@ -18,6 +18,8 @@ def display_mod():
   pd.options.display.max_seq_items = None
 
 
+# Function to retain numeric features while dropping high cardinality features and the target variable:
+
 def feature_keeper(dataframe, target):
     # Get a dataframe with all train columns except the target
     train_features = dataframe.drop(columns=[target])
