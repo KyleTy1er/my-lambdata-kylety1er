@@ -34,3 +34,5 @@ def feature_keeper(dataframe, target):
     # Combine the lists 
     features = numeric_features + categorical_features
 
+    return features
+
