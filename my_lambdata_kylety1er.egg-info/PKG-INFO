@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: my-lambdata-kylety1er
-Version: 5.0
+Version: 7.0
 Summary: First package upload
 Home-page: https://github.com/KyleTy1er/my-lambdata-kylety1er
 Author: Kyle Yates
@@ -11,7 +11,7 @@ Description: # my-lambdata-kylety1er
         
         # Description here:
         
-        Function for displaying null values in a dataframe
+        Function for displaying null values in a dataframe 
         Function for updating display options in a notebook
         
         # Installation

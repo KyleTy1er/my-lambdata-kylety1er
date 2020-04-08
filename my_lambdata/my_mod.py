@@ -5,14 +5,11 @@
 import pandas as pd
 import numpy as np
 
+# *** HOW TO PUSH TO PYPI ***
 # python setup.py sdist bdist_wheel (build the actual package)
 # twine upload --repository-url https://test.pypi.org/legacy/ dist/* --skip-existing
 
 
-
-def dock_tester(a):
-    a = a + a
-    print a
 
 def null_checker(a):
     # Creating a list of all columns containing a null value:
