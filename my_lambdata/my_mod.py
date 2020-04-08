@@ -5,6 +5,14 @@
 import pandas as pd
 import numpy as np
 
+# python setup.py sdist bdist_wheel (build the actual package)
+# twine upload --repository-url https://test.pypi.org/legacy/ dist/* --skip-existing
+
+
+
+def dock_tester(a):
+    a = a + a
+    print a
 
 def null_checker(a):
     # Creating a list of all columns containing a null value:
@@ -96,7 +104,9 @@ if __name__ == "__main__":
     df = pd.read_csv('https://raw.githubusercontent.com/KyleTy1er/Build-Week-Unit-2/master/fighters_df.csv', index_col=0)
     df_test = Model_Prep(df, 'is_winner')
 
+    display_mod()
     print (df_test.drop_target())
     print (df_test.numeric_features())
     print (df_test.cardinality())
     print (df_test.numeric_features())
+    print (df_test.numeric_cat_combine())
