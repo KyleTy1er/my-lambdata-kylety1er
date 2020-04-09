@@ -1,3 +1,10 @@
 {
-    "python.pythonPath": "/Users/kyleyates/.local/share/virtualenvs/my-lambdata-kylety1er-6bCVxrLD/bin/python"
+    "python.pythonPath": "/Users/kyleyates/.local/share/virtualenvs/my-lambdata-kylety1er-6bCVxrLD/bin/python",
+    "files.exclude": {
+        "**/.__cache": true,
+        "**/.build": true,
+        "**/.pytest_cache": true,
+        "**/.vscode": true,
+        "**/my_lambdata_kylety1er.egg-info": true
+    }
 }
