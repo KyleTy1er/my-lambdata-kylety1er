@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/Users/kyleyates/.local/share/virtualenvs/my-lambdata-kylety1er-6bCVxrLD/bin/python",
+    "python.pythonPath": "C:\\Users\\mrmcd\\Anaconda3\\python.exe",
     "files.exclude": {
         "**/.__cache": true,
         "**/.build": true,
