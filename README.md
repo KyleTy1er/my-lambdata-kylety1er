@@ -1,6 +1,6 @@
 
 # Model Prep: toolkit for preparing a Pandas Dataframe for use in a predictive model:
-[![PyPI Latest Release](https://test.pypi.org/project/my-lambdata-kylety1er/7.0/)
+[![PyPI Latest Release](https://test.pypi.org/project/my-lambdata-kylety1er/8.0/)
 [![License](https://img.shields.io/pypi/l/pandas.svg)](https://github.com/pandas-dev/pandas/blob/master/LICENSE)
 
 ## What is it?
